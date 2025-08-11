@@ -1,0 +1,244 @@
+
+.principal{
+    font-family: Arial;
+}
+
+.contenedor1{
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: #464a58;
+    color: white;
+}
+
+header {
+    background-color: #464a58;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 1px 0;
+}
+
+.contenedor1 h4{
+    padding-left: 150px;
+}
+
+.quiensoy{
+    margin-right: 20px;
+    text-align: right;
+    color: rgb(146, 144, 144);
+}
+
+.contenedor2{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    font-size: 20px;
+    margin-top: 120px; 
+}
+
+.contenedor2 p{
+    margin-right: 200px;
+}
+
+.contenedor2 img{
+    margin: 0 auto;
+    width: 700px;
+    height: 400px;
+}
+
+h1{
+    font-size: 50px;
+    color: red;
+}
+
+button{
+    border-radius: 5px;
+    background-color: rgb(255, 102, 0);
+    color: white;
+    width: 110px;
+    height: 45px;
+    display: block;
+    border-color: rgb(255, 94, 0);
+    font-size: 16px;
+}
+
+.contenedor3 {
+    background-color: rgb(255, 102, 0);
+    text-align: center;
+    padding: 50px;
+    font-size: 30px;
+    margin: 0;
+}
+
+.contenedor3 img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 440%;
+    margin: 0 auto;
+    display: block;
+}
+
+.contenedor3 p{
+    color: white;
+}
+
+.misp {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.contenedor4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.contenedor4 button{
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: rgb(255, 102, 0);
+    color: white;
+    width: 140px;
+    height: 45px;
+    display: block;
+    border-color: rgb(255, 94, 0);
+    font-size: 16px;
+}
+
+.proyecto1, .proyecto2, .proyecto3, .proyecto4 {
+    border: 1px solid rgb(214, 210, 210);
+    border-radius: 5px;
+    margin: 60px;
+    padding-bottom: 20px;
+}
+
+.proyecto1 p, .proyecto2 p, .proyecto3 p, .proyecto4 p {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.proyecto1 img, .proyecto2 img, .proyecto3 img, .proyecto4 img {
+    margin: 0 auto;
+    width: 350px;
+    height: 200px;
+    border-radius: 5px;
+
+}
+
+.foooter{
+    background-color: #3f3f3f;
+    color:#ffffff;
+    padding: 1%;
+  }
+  
+
+
+@media screen and (max-width: 1200px) {
+    .contenedor2 {
+        grid-template-columns: 1fr; 
+    }
+    .contenedor2 img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .contenedor4 {
+        grid-template-columns: 1fr 1fr; 
+    }
+
+    .proyecto1 img, .proyecto2 img, .proyecto3 img, .proyecto4 img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contenedor1 {
+        grid-template-columns: 1fr; 
+        padding: 10px;
+    }
+
+    header {
+        padding: 10px 0;
+    }
+
+    .contenedor1 h4 {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .quiensoy {
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .contenedor2 {
+        padding: 20px;
+    }
+
+    .contenedor2 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .contenedor3 {
+        padding: 30px;
+    }
+
+    .proyecto1, .proyecto2, .proyecto3, .proyecto4 {
+        margin: 20px;
+    }
+
+    .contenedor4 {
+        grid-template-columns: 1fr; 
+    }
+
+    .proyecto1 img, .proyecto2 img, .proyecto3 img, .proyecto4 img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .contenedor1 {
+        grid-template-columns: 1fr; 
+    }
+
+    .contenedor2 {
+        font-size: 16px; 
+    }
+
+    h1 {
+        font-size: 30px; 
+    }
+
+    .contenedor3 {
+        padding: 20px;
+    }
+
+    .proyecto1, .proyecto2, .proyecto3, .proyecto4 {
+        margin: 10px;
+    }
+
+    .contenedor4 {
+        grid-template-columns: 1fr; 
+    }
+
+    .proyecto1 img, .proyecto2 img, .proyecto3 img, .proyecto4 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .misp {
+        font-size: 24px; 
+    }
+}
