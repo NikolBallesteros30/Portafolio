@@ -1,0 +1,606 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.contenedor {
+    display: grid;
+    border-radius: 10px;
+    box-shadow: 5px 5px 500px rgb(128, 127, 127);
+
+}
+
+.contenedor-1 {
+    display: flex;
+    background-image: url(https://www.demo.mutationmedia.net/DIFFERENCE/img/portfolio/6.jpg);
+    font-weight: bold;
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+}
+
+.textos {
+    padding: 30px;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 50%;
+    justify-content: center;
+}
+
+#forma {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#subtitulo {
+    font-size: 12px;
+
+}
+
+
+.botton {
+    background: rgb(25, 142, 219);
+    color: white;
+    width: 250px;
+    height: 35px;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenedor-2 {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.textos1 {
+    height: 100%;
+
+}
+
+#sec {
+    height: 100%;
+    width: 100%;
+    background: white;
+    border: 1px solid rgb(223, 217, 217);
+
+}
+
+#iconos {
+    color: rgb(31, 109, 226);
+    font-size: 20px;
+
+}
+
+#foto {
+    display: flex;
+    position: relative;
+    margin: 40px;
+    border: 5px solid whitesmoke;
+    border-radius: 100px;
+
+
+}
+
+
+.contenedor-3 {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+
+}
+
+.texto {
+
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 5px;
+}
+
+
+#c1 {
+    display: flex;
+    flex-direction: column;
+    gap: 8%;
+    padding: 10px;
+    border: 1px solid rgb(202, 202, 202);
+    background-color: rgb(220, 220, 220);
+    margin: 0px;
+}
+
+.botton2 {
+    height: 40px;
+    width: 200px;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid rgb(67, 170, 255);
+    border-radius: 100px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(37, 145, 233);
+}
+
+#c2 {
+    background-color: rgb(221, 221, 221);
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    padding: 10px;
+    border: 1px solid rgb(218, 218, 218);
+    margin: 0px;
+}
+
+#ul {
+    list-style: none;
+}
+
+
+#c3 {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    padding: 10px;
+    border: 1px solid rgb(207, 207, 207);
+    background-color: rgb(231, 231, 231);
+    margin: 0px;
+}
+
+
+.contenedor-4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.text {
+    padding-top: 2%;
+    align-content: center;
+    margin: 3.5%;
+}
+
+#tama {
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+
+.contenedor-5 {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    gap: 1em;
+    padding: 2%;
+}
+
+.elemento1 {
+    padding: 5%;
+    grid-column: 1/1;
+    grid-row: 1/4;
+    border: 3px solid grey;
+}
+
+#curso {
+    color: white;
+    background-color: rgb(95, 147, 224);
+    border: none;
+}
+
+.elemento2 {
+    padding: 5%;
+    grid-column: 3/2;
+    grid-row: 1/5;
+    border: 3px solid grey;
+}
+
+.elemento3 {
+    padding: 5%;
+    grid-column: 3/3;
+    grid-row: 1/3;
+    border: 3px solid grey;
+}
+
+.elemento4 {
+    padding: 5%;
+    grid-column: 1/1;
+    grid-row: 4/6;
+    border: 3px solid grey;
+}
+
+#ic {
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+    margin: 4px;
+    border: 3px solid rgb(95, 147, 224);
+    border-radius: 50%;
+}
+
+#t {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+}
+
+.tex2 {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+.elemento5 {
+    padding: 5%;
+    grid-column: 3/3;
+    grid-row: 3/6;
+    border: 3px solid grey;
+    justify-content: center;
+}
+
+.tex {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    gap: 10px;
+    color: black;
+    font-size: 18px;
+}
+
+#gris {
+    width: 15%;
+    height: 3px;
+    border-radius: 50px;
+    background-color: rgb(200, 200, 200);
+}
+
+#hr {
+
+    width: 15%;
+    height: 3px;
+    border-radius: 50px;
+    background-color: rgb(95, 147, 224);
+
+}
+
+.orden {
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+}
+
+#iq {
+    font-size: 30px;
+    color: grey;
+
+}
+
+.orr {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+::marker {
+    color: blue;
+    font-size: 20px;
+}
+
+#iii {
+    font-size: 28px;
+    color: grey;
+}
+
+@media (max-width: 400px) {
+    * {
+        margin: 0px;
+    }
+
+    body {
+
+        padding: 0;
+    }
+
+    .contenedor {
+        display: grid;
+        border-radius: 10px;
+        box-shadow: 0px 0px rgb(57, 57, 57);
+
+
+    }
+
+    .contenedor-1 {
+        display: flex;
+        background-image: url(https://www.demo.mutationmedia.net/DIFFERENCE/img/portfolio/6.jpg);
+        font-weight: bold;
+        background-size: cover;
+        background-position: center center;
+        height: 250px;
+    }
+
+    .contenedor-2 {
+        height: 40px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+
+    .textos1 {
+        font-size: 20px;
+        padding: 0;
+        height: auto;
+        font-size: 14px;
+    }
+
+
+
+
+
+    #sec {
+        width: 100%;
+        background: white;
+        border: 1px solid grey;
+
+    }
+
+    #foto {
+        display: flex;
+        position: relative;
+        margin: 4px;
+        border: 5px solid whitesmoke;
+        border-radius: 100px;
+        width: 150px;
+
+    }
+
+
+
+
+    .contenedor-3 {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .texto {
+        font-size:20px;
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        gap: 5px;
+    }
+
+
+    #c1 {
+        display: flex;
+        flex-direction: column;
+        gap: 8%;
+        padding: 10px;
+        border: 1px solid grey;
+        background-color: rgb(220, 220, 220);
+        margin: 0px;
+    }
+
+
+
+    .contenedor-4 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+
+    .contenedor-5 {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        padding: 2%;
+    }
+
+    .elemento1,
+    .elemento2,
+    .elemento3,
+    .elemento4,
+    .elemento5 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tex {
+        display: flex;
+        flex-direction: column;
+        padding: 5%;
+        gap: 10px;
+        color: black;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 760px) {
+    * {
+        margin: 0px;
+    }
+
+    body {
+
+        padding: 0;
+    }
+
+    .contenedor {
+        display: grid;
+        border-radius: 10px;
+        box-shadow: 0px 0px rgb(57, 57, 57);
+
+    }
+
+    .contenedor-1 {
+        display: flex;
+        background-image: url(https://www.demo.mutationmedia.net/DIFFERENCE/img/portfolio/6.jpg);
+        font-weight: bold;
+        background-size: cover;
+        background-position: center center;
+        height: 250px;
+    }
+
+    .contenedor-2 {
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+
+    }
+
+    .textos1 {
+        padding: 0;
+        height: auto;
+        font-size: 14px;
+    }
+
+
+    #sec {
+        width: 100%;
+        background: white;
+        border: 1px solid grey;
+
+    }
+
+    #foto {
+        display: flex;
+        position: relative;
+        margin: 4px;
+        border: 5px solid whitesmoke;
+        border-radius: 100px;
+        width: 150px;
+
+    }
+
+
+
+
+    .contenedor-3 {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .texto {
+font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        gap: 5px;
+    }
+
+
+    #c1 {
+        display: flex;
+        flex-direction: column;
+        gap: 8%;
+        padding: 10px;
+        border: 1px solid grey;
+        background-color: rgb(220, 220, 220);
+        margin: 0px;
+    }
+
+
+
+    .contenedor-4 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+
+    .contenedor-5 {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        padding: 2%;
+    }
+
+    .elemento1,
+    .elemento2,
+    .elemento3,
+    .elemento4,
+    .elemento5 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tex {
+        display: flex;
+        flex-direction: column;
+        padding: 5%;
+        gap: 10px;
+        color: black;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1004px) and (min-width: 753px) {
+   *{
+
+    box-sizing: border-box;}
+   
+   
+    .contenedor {
+        grid-template-columns: 1fr;
+    }
+
+    .contenedor-3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenedor-5 {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        padding: 2%;
+    }
+
+    .contenedor-2 {
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+    }
+.texto{
+    font-size: 20px;
+}
+
+
+    #foto {
+        display: flex;
+        position: relative;
+        margin: 40px;
+        border: 5px solid whitesmoke;
+        border-radius: 100px;
+    }}
